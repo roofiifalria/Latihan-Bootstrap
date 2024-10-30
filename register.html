@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="container">
+        <form>
+            <h3>Register Here</h3>
+
+            <div class="row">
+                <div class="col">
+                    <label for="firstName">First Name</label>
+                    <input type="text" placeholder="Enter First Name" id="firstName">
+                </div>
+                <div class="col">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" placeholder="Enter Last Name" id="lastName">
+                </div>
+            </div>
+
+            <label for="displayName">Display Name</label>
+            <input type="text" placeholder="Enter Display Name" id="displayName">
+
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="Enter Email" id="email">
+
+            <div class="row">
+                <div class="col">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" id="password">
+                </div>
+                <div class="col">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Password" id="confirmPassword">
+                </div>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="agree" class="form-check-input">
+                <label for="agree" class="form-check-label">I Agree to the Terms and Conditions</label>
+            </div>
+
+            <button type="submit">Register</button>
+            <p class="switch">Already have an account? <a href="index.html">Login here</a></p>
+
+            <div class="social">
+                <div class="go"><i class="fab fa-google"></i> Google</div>
+                <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
